@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: ;
+  text-align: center;
+  background-color:  #000000d5;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+
+header .navbar {
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 50px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: cyan;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: 0.30rem;
+  color: lightyellow;
+  font-weight: bold;
+  filter: drop-shadow(3px 3px 10px red);
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 25px;
+  border: 8px solid purple;
+  border-top: 8px solid purple;
+  border-left: 8px solid purple;
+  border-right: 8px solid purple;
+  box-shadow: 0 0 50px cyan;
+}
+
+header h1 {
+  font-size: 23px;
+  font-family: Sans-Serif;
+  text-transform: uppercase;
+  color: white;
+  word-spacing: 3px;
+  font-weight: bold;
+}
+
+header h1 b {
+  color: violet;
+  font-weight: bold;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+header h2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 23px;
+  word-spacing: 3px;
+  text-transform: uppercase;
+  margin-right: 12%;
+}
+
+header h2 b {
+  color: yellow;
+  text-shadow: 0px 0px 80px cyan;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  margin-top: 95%;
+  padding: 5rem 0;
+  background-color: #ffffffd0;
+  box-shadow: 0px 0px 20px rgb(207,3,231);
+  text-align: center;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size:30px;
+  font-family: fantasy;
+  font-weight: bold;
+  color: blue;
+}
+
+.hero p {
+  margin-left: 8px;
+  font-size: 17px;
+  font-family: Times New Roman;
+  line-height: 1.5;
+  text-align: justify;
+  margin-right: 12px;
+  word-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  border: 2px solid #2c3e50;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background-color: #2c3e50;
+  text-decoration: none;
+  color: white;
+}
+
+
+.about {
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #ffffffd0;
+  border: 1px solid #ddd;
+  box-shadow: 8px 8px 8px grey;
+  line-height: ;
+}
+
+.about h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.about img {
+  width: 50%;
+  height: 50%;
+}
+
+.about p {
+  font-size: 18px;
+  text-align: justify;
+  font-family:  arial;
+  line-height: 1.5;
+}
+
+.skills {
+  padding: 3rem 0;
+  margin-right: 5px;
+  background-color: #ffffffd0;
+  margin-top: 50px;
+  box-shadow: 8px 8px 8px grey;
+}
+
+.skills-list {
+  display: flex;
+  justify-content: space-around;
+  object-fit: cover;
+}
+
+.skills-item {
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 7px 7px 7px grey;
+  border: 2px solid black;
+}
+
+.skills-item:hover {
+  border: 4px solid red;
+  box-shadow: 0px 0px 40px rgba(186,207,8,0.784) ;
+  
+}
+
+.skills-item img {
+  width: 90px;
+  height: 90px;
+  filter: drop-shadow(2px 2px 5px orange);
+}
+
+.skills h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.projects {
+  margin-top: 50px;
+  padding: 1rem 0;
+  background-color: #ffffffd0;
+  margin-top: 50px;
+  box-shadow: 8px 8px 8px grey;
+}
+
+.projects-list {
+  display: start;
+  object-fit: cover;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.projects-item {
+}
+
+.projects-item img {
+  width: 70%;
+  height: 70%;
+  box-shadow: 7px 7px 7px grey;
+  border-radius: 6px;
+}
+
+.projects-item img:hover {
+  transform: scale(1.1);
+  border: 4px solid blue;
+  box-shadow: 0px 0px 40px rgb(226,231,68);
+}
+
+.projects h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.contact {
+  padding: 5rem 0;
+  background-color: #ffffffd0;
+  margin-top: 50px;
+  box-shadow: 8px 8px 8px grey;
+}
+
+
+.contact p {
+  font-size: 23px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 6px;
+  border: 2px solid black;
+  box-shadow: 7px 7px 7px grey;
+}
+
+.contact h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.container-github {
+  margin-top: 50px;
+  padding: 3rem 0;
+  display: flex; /* untuk tulisan berada disamping gambar*/
+  align-items: center;
+  background-color: #ffffffd0;
+  margin-bottom: 50px;
+  box-shadow: 8px 8px 8px grey;
+}
+
+.container-github img {
+  width: 8%;
+  height: 8%;
+  margin-left: 8px;
+  filter: drop-shadow(2px 2px 10px yellow);
+}
+
+.container-github p {
+  margin-right: 10px; /* untuk tulisan berada disamping gambar*/
+  margin-left: 5px;
+  font-family: Times New Roman;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container-footer {
+  padding: 4rem 0;
+  background-color: #000000d5;
+}
